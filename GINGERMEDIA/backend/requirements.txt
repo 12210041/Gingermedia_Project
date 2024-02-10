@@ -1,0 +1,7 @@
+npm init -y #for package.json file
+npm install mysql2
+npm install body-parser
+npm install cors
+npm install express
+
+# for run type on terminal npm DbConnect.js
