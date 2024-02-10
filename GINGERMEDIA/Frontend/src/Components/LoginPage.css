@@ -1,0 +1,68 @@
+.login{
+    position: absolute;
+    top:0%;
+    display:flex;
+    flex-direction: column;
+    right: 0px;
+    padding: .5% 1%;
+    width:30vw;
+    height: 100vh;
+    color:rgb(240, 85, 33);
+    background-color: white;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    font-size: 2rem;
+    align-items: center;
+}
+@media (max-width:800px){
+    .login{
+        width:100%;
+
+    }
+}
+.login p{
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(86, 220, 151, 0.785);
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.login>form{
+    display: grid;
+    font-size: 1.5rem;
+    width: 80%;
+}
+.login>form>input{
+    font-size: 1.5rem;
+    padding: 2%;
+    border-radius: 10px;
+    width: 100%;
+}
+.login>form>button{
+    font-size: 2rem;
+    padding: 2px;
+    border-radius: 10px;
+    width: 40%;
+    background-color: rgb(240, 85, 33);
+    color:white;
+    margin: 3% 30%;
+    cursor: pointer;
+    transition: 0s;
+}
+.login>form>button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 85, 33);
+}
+/* .captacontainer{
+    display: grid;
+    grid-template-columns: 20% 20%;
+} */
+.capta{
+    padding: 1%;
+    font-size: 2rem;
+    width: 30%;
+    margin: 2%;
+    border-radius: 15px;
+}

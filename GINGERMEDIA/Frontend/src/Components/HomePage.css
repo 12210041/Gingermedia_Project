@@ -1,0 +1,39 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.left-content{
+    padding: 5%;
+}
+.learnmore{
+    background-color:rgb(240, 85, 33);
+    color:white;
+    font-size: 1.3rem;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.learnmore:hover{background-color:rgba(240, 85, 33, 0.645);}
+.left-content p:nth-child(1){
+    font-size: 2rem;
+}
+.left-content p:nth-child(2){
+    font-size: 4rem;
+}
+.right-content{
+    padding: 5%;
+    overflow: hidden;
+}
+.right-content img{
+    border-radius: 20%;
+    height:90%;
+    animation: scrl 3s infinite;
+}
+@keyframes scrl{
+    0%{ margin-left: 1%;}25%{ margin-top: 3%;}50%{ margin-left: 4%;}75%{ margin-left: 5%;}100%{ margin-left: 6%;}
+}
